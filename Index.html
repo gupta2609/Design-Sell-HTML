@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        body{
+            margin: 25px;
+            background-color: powderblue;
+        }
+        div.mydiv{
+            float: left;
+            padding: 5px;
+            background-color: rgb(5, 5, 5);
+            margin-bottom: 25px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        div.subdiv{
+            text-align: center;
+            padding: 10px 20px;
+        }
+        #im6,#im7,#im5{
+            width: 420px;
+            height: 370px;
+        }
+        .button1{
+            padding: 16px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            transition-duration: 0.5s;
+            cursor: pointer;
+           
+        }
+        .button1{
+            background-color: black;
+            color: white;
+            border: 1px solid gray;
+        }
+        .button1:hover{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="mydiv">
+        <img src="image6.png" id="im6">
+        <div class="subdiv">
+            <a href="HomePage.html"><b>HOME PAGE</b></a>
+        </div>
+    </div>
+
+    <div class="mydiv">
+        <img src="image5.png" id="im5">
+        <div class="subdiv">
+            <a href="ContactPage.html"><b>Contact Us</b></a>
+        </div>
+    </div>
+
+    <div class="mydiv">
+        <img src="image7.png" id="im7">
+        <div class="subdiv">
+            <a href="aboutus.html"><b>About Us</b></a>
+        </div>
+    </div>
+
+    <div>
+        <button class="button1" onclick="alert('Thanks for Purchase')">Purchase</button>
+    </div>
+</body>
+</html>

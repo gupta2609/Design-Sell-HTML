@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<style>
+	#id1{
+		padding:20px;
+		height:600px;
+		float:left;
+		border:2px solid black;
+		text-align:center;
+		background-color:gray;
+	}
+	input[type=text],input[type=Email],textarea{
+		padding:12px;
+		width:650px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		resize:vertical;
+	}
+	input[type=submit]{
+		padding:12px 20px;
+		border:1px solid black;
+		border-radius:4px;
+		color:solid black;
+	}
+	input[type=submit]:hover{
+		background-color:#45a049;
+	}
+	#id2{
+		float:left;
+		width:450px;
+		height:400px;
+		margin-left:10px;
+		background-color: gray;
+		padding:20px;
+		border:2px solid black;
+		text-align:center
+	}
+</style>
+</head>
+
+<body>
+	<center><h2>Contact Us</h2></center>
+<div id="id1">
+	<form>
+		<table>
+			<tr>
+                <td><h3>Name</h3></td>
+                <td><h3><input type="text" placeholder="Enter your Name" required/></h3></td>
+            </tr>
+            <tr>
+                <td><h3>Email</h3></td>
+                <td><h3><input type="Email" placeholder="Enter your Email" required/></h3></td>
+            </tr>
+			<tr>
+				<td><h3>Comment</h3></td>
+				<td><h3><textarea rows="5" col="50" placeholder="Enter your Comments" required/></textarea>
+			</tr>
+			<tr>
+                <td><h3><input type="submit" onclick="alert('Thanks For Contacting')"/></h3></td>
+            </tr>
+		</table>
+	</form>
+</div>
+<div id="id2">
+	<h2>Address:</h2>
+	<h3>xyxpqr city</h3>
+	<h3>abcd colony</h3>
+	<h3>fghi state</h3>
+	<h3>Contact Num:1234567899</h3>
+	<h3>Email:abcd@xyz.com</h3>
+</div>
+</body>
+
+</html>
